@@ -1,0 +1,16 @@
+## Get all
+GET http://localhost:3001/api/notes
+
+###delete
+DELETE http://localhost:3001/api/notes/3
+
+
+### POST
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "id":4,
+    "content": "this is a text",
+    "important": false
+}
