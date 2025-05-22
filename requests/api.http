@@ -10,7 +10,15 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "id":4,
-    "content": "this is a text",
+    "content": "sup!",
     "important": false
+}
+
+### PUT
+PUT http://localhost:3001/api/notes/682e8bd2e4d1a648c7024d2b
+Content-Type: application/json
+
+{
+    "content": "This is updating!",
+    "important": true
 }
